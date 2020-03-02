@@ -1,4 +1,4 @@
-package csl.pay.print.P179;
+package csl.pay.experiment.P179;
 
 public class Beetle extends Insect {
     private int k=printInit("Beetle.k initialized");
