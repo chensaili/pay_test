@@ -28,7 +28,7 @@ interface Storm {
 }
 
 public class StormyInning extends Inning implements Storm {
-  //1.当父类的构造方法抛出异常，基类必须有一个构造方法是抛出相同异常或者此异常的父类
+  //1.当父类的构造方法抛出异常，子类必须有一个构造方法是抛出相同异常或者此异常的父类
   //public StormyInning(){};报错
   public StormyInning() throws RainedOut, BaseballException {}
   public StormyInning(String s) throws Foul, BaseballException {}
