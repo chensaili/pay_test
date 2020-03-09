@@ -1,4 +1,4 @@
-package csl.pay.thinkingInJava.traverse_Map;
+package csl.pay.thinkingInJava.arrays.traverse_Map;
 
 import java.util.HashMap;
 import java.util.Iterator;
