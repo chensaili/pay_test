@@ -6,6 +6,9 @@ import csl.pay.thinkingInJava.generic.coffee.Generator;
 import java.util.Arrays;
 import java.util.Random;
 
+/**
+ * 数组比较
+ */
 public class CompType implements Comparable<CompType> {
   int i;
   int j;
