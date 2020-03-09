@@ -82,7 +82,7 @@ public class Wildcards {
     // Long r9 = wildSubtype(raw, lng); // Warnings:Unchecked conversion from Holderto Holder<? extends Long>Unchecked method invocation:wildSubtype(Holder<? extends T>,T) isapplied to (Holder,Long)
     Long r10 = wildSubtype(qualified, lng);
     // OK, but can only return Object:
-    Object r11 = wildSubtype(unbounded, lng);
+    Object r11 = wildSubtype(unbounded, lng);//Holder<?> unbounded = new Holder<Long>();
     Long r12 = wildSubtype(bounded, lng);
 
     //static <T>void wildSupertype(Holder<? super T> holder, T arg) {
